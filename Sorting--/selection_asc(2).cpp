@@ -24,7 +24,7 @@ void selectionSort(int A[],int n){
 }
 
 int main(){
-    int arr[]= {9,3,5,13,18,43,2,5};
+    int arr[]= {9,-3,5,13,18,43,-2,5};
     int size = sizeof(arr)/sizeof(arr[0]) ;
     cout<< "before sorting: " ;
     for(int i =0; i<size ; i++){
@@ -37,3 +37,4 @@ int main(){
         cout<< arr[i] << " " ;
     }
 }
+
